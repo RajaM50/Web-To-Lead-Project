@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-To-Lead Form</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Fill The Form !!</h1>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5g00000LLKTo" method="POST" onsubmit="beforesubmit()">
+    
+    <input type=hidden name="oid" value="00D5g00000LLKTo">
+    <input type=hidden name="retURL" value="https://trailhead.salesforce.com/">
+    <input type=hidden name="Lead_Date__c" class="outputdate" />
+
+
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true" /><br/>
+    
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true" /><br/>
+    
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" required="true" /><br/>
+
+    <label for="lead date">Lead Date</label><input type="date" required="true" class="inputdate" /><br/>
+
+    <!--Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NJ1000000KCoX" name="00NJ1000000KCoX" size="12" type="text" /></span><br> -->
+    
+    <input class="submit" type="submit" name="submit">
+    
+    </form>
+</body>
+</html>

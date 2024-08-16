@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+input,label{
+    display: block;
+
+}
+label{
+    color: green;
+}
+input{
+    width: 100%;
+}
+.submit{
+    margin: 15px auto 0 auto;
+    width: 40%;
+    background-color: rgb(177, 103, 177);
+    border-radius: 5px;
+    text-align: center;
+}
+form{
+    min-width: 300px;
+    max-width: 500px;
+    margin:auto;
+    border: 2px solid black;
+    padding: 15px;
+}
